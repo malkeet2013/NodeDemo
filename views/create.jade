@@ -1,0 +1,25 @@
+extends layout
+block content 
+  h1 #{title}
+  form(action='/create',method='post')
+    | Title
+    br
+    input(name="title")
+    br   
+    | Description
+    br
+    input(name="description")
+    br
+    | Date
+    br
+    input(name="date")
+    br
+    | Time
+    br
+    input(name="time")
+    br
+    | Location
+    br
+    input(name="location")
+    br
+    input(type='submit', value='Add Location')

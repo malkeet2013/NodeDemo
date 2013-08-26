@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to Node
+  ul
+   each dat in Location
+    li(id='title') #{dat.title}
+    li(id='description') #{dat.description}
+    li(id='recdate') #{dat.date}
+    li(id='rectime') #{dat.time}
+    li(id='recloc') #{dat.location}    
+    li 
+       a(href="#", id='vwMap') View
+   
+    #mpDisplay

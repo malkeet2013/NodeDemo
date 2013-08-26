@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+
+li
+{
+    float: left;
+    display: inline;
+    width: 140px;
+        
+}
+ul
+{ 
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+    border-bottom: 1px dashed #000000;  
+}
+#mpDisplay
+{
+    top: 20px;
+    float: left;
+    height: 600px;
+    width: 600px;
+    background-color: #b6ff00; 
+}
